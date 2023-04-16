@@ -1,0 +1,128 @@
+
+html,body,.capa{
+
+    height: 100%;
+
+}
+
+body{
+
+    background: url("imagens/capa.png"), url("imagens/ruido.png"), linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, sans-serif;
+}
+
+.img-logo{
+
+   color: transparent;
+   background-image: url("imagens/spotify.svg");
+   background-repeat: no-repeat;
+   width: 132px;
+   height: 40px;
+   background-size: contain;
+   display: block;
+
+}
+
+nav.navbar-transparente{
+
+    border: none;
+    padding: 15px 0;
+    background-color: rgba(0, 0, 0, .6);
+
+}
+
+.navbar-brand{
+
+    padding: 5px 15px;
+
+}
+
+.divisor{
+
+   width: 1px;
+   height: 16px;
+   background-color: white;
+   margin: 17px 5px;
+
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #9bf0e1;
+}
+
+.capa{
+
+    text-align: center;
+    display: table;
+    width: 100%;
+
+}
+
+.texto-capa{
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.texto-capa h1{
+    font-size: 100px;
+    letter-spacing: -0.05em;
+    font-weight: 900;
+}
+
+.btn-custom{
+    border-radius: 500px;
+    color: white;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    margin: 0 15px;
+    transition: background .4s, color .4s;
+}
+
+.btn-roxo{
+    background-color: #7c26f8;
+}
+
+.btn-roxo:hover{
+    background-color: #6207e3;
+    color: white;
+}
+
+.btn-branco{
+    border: 2px solid #fff;
+}
+
+.btn-branco:hover{
+    background-color: white;
+    color: black;
+}
+
+#servicos{
+    background: #fff;
+    padding: 20px 0;
+}
+
+.albuns{
+    padding: 15px 0;
+}
+
+h2{
+    font-size: 50px;
+    letter-spacing: -0.04em;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 35px;
+    letter-spacing: -0.04em;
+    font-weight: 700;
+}
+
+.texto-roxo{
+    color: #7c26f8;
+}
