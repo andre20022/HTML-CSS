@@ -37,12 +37,13 @@ nav.navbar-transparente{
    margin: 17px 5px;
 }
 
-.navbar-inverse .navbar-nav > li > a{
+.navbar-inverse .navbar-nav > li > a, #rodape .nav a{
     color: white;
 }
 
-.navbar-inverse .navbar-nav > li > a:hover{
+.navbar-inverse .navbar-nav > li > a:hover, #rodape .nav a:hover{
     color: #9bf0e1;
+    background: none;
 }
 
 .capa{
@@ -58,7 +59,6 @@ nav.navbar-transparente{
 }
 
 .texto-capa h1{
-    font-size: 100px;
     letter-spacing: -0.05em;
     font-weight: 900;
 }
@@ -66,9 +66,7 @@ nav.navbar-transparente{
 .btn-custom{
     border-radius: 500px;
     color: white;
-    padding: 10px 35px;
     text-transform: uppercase;
-    margin: 0 15px;
     transition: background .4s, color .4s;
 }
 
@@ -128,4 +126,36 @@ h3{
 .rotacionar{
     transform: rotate(30deg);
     padding-left: 130px;
+}
+
+footer{
+    background-color: #000;
+    position: relative;
+    padding: 50px 0 20px 0;
+}
+
+#rodape h4{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #919496;
+}
+
+.itens-redes-sociais{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 767px){
+    h1{
+        font-size: 50px;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    h1{
+        font-size: 70px;
+    }
 }
